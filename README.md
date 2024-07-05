@@ -4,7 +4,7 @@ Final project for the Building AI course
 
 ## Summary
 
-This project involves building a Convolutional Neural Network (CNN) to classify images from the EMNIST dataset. The goal is to achieve accurate character recognition, which can then serve as a foundation for more complex AI-driven applications.
+This project involves building a Convolutional Neural Network (CNN) to classify images from the EMNIST dataset. The goal is to achieve accurate character recognition, which can then serve as a foundation for more complex AI-driven applications. All details and explanation of the implementation are contained in the attaches `.ipynb` file in the main branch of this repository. **Please consult `Juan_Trobajo_Flecha_Classification_CNN_EMNIST.ipynb` for further technical information on the project.**
 
 ## Background
 

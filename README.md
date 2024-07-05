@@ -1,4 +1,4 @@
-# EMNIST-Classifier-with-CNNs
+# EMNIST Classifier with CNNs
 
 Final project for the Building AI course
 

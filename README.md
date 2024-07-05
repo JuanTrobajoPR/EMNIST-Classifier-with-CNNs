@@ -1,74 +1,59 @@
 # EMNIST-Classifier-with-CNNs
+
 Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+This project involves building a Convolutional Neural Network (CNN) to classify images from the EMNIST dataset. The goal is to achieve accurate character recognition, which can then serve as a foundation for more complex AI-driven applications.
 
 ## Background
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+Character recognition is a crucial component in various applications such as automated data entry, license plate recognition, and postal mail sorting. The ability to accurately classify characters can significantly streamline these processes. My personal motivation for this project is to deepen my understanding of CNNs and their applications in image processing, which I find both challenging and intriguing.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+This project addresses several problems:
 
+* Automating the reading of handwritten characters.
+* Enhancing accuracy in character recognition tasks.
+* Providing a basis for more complex AI applications in the future.
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+The CNN model is used to classify images from the EMNIST dataset. The process involves the following steps:
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+1. Preprocessing the EMNIST dataset.
+2. Training the CNN model on the training set.
+3. Evaluating the model's performance on the test set.
+4. Using the trained model to predict characters from new images.
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+This solution is essential in environments where quick and accurate character recognition is needed, such as postal services, banks, and data entry jobs. The primary users are developers and researchers working on optical character recognition (OCR) systems.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The data for this project comes from the EMNIST dataset, which is an extension of the MNIST dataset and includes more characters. The dataset is publicly available and widely used in the field of image processing and machine learning.
+
+The primary AI technique used in this project is Convolutional Neural Networks (CNNs), which are particularly effective for image classification tasks. The model is implemented using Python and popular machine learning libraries such as TensorFlow and Keras.
+
+[EMNIST Dataset](https://www.nist.gov/itl/products-and-services/emnist-dataset)
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+This project does not solve all problems related to character recognition. Some limitations and ethical considerations include:
+
+* Handling poor-quality or corrupted images.
+* Bias in the dataset that might affect the model's accuracy.
+* Ensuring the privacy of any data used for training the model.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+To enhance this project further, the following steps could be taken:
 
+* Expanding the model to handle more complex datasets.
+* Improving the preprocessing steps to handle a wider variety of image conditions.
+* Integrating the model into a full OCR pipeline for real-world applications.
+
+To achieve these goals, additional skills in advanced image processing, model optimization, and software integration would be beneficial.
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* The EMNIST dataset creators.
+* Any other sources of inspiration and assistance mentioned in the notebook itself.
